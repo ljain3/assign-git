@@ -1,4 +1,17 @@
 •  What is a gitignore file and what should it include for a Java project? 
+-> gitignore file is a simple text file which is kept in the project's root directory. It outlines which files should not be taken into account when committing a project to GitHub. [1]
+
 •  What does fast-forward in git mean? 
+-> Any merge where the main branch underwent changes between the branch point and the merge back to the main branch is referred to as a non-fast-forward merge. In this situation, rebasing instead of merging allows a user to imitate a fast-forward. Rebasing functions by  dropping some commits and adding new ones. [2]
+
 •  Why should you have different branches? 
+-> Branches help in securely trying out new ideas, developing functionalities, or addressing errors in a specific part of the repository. [3]
+
 •  In a project how many remote Git repositories do you usually have? 
+-> One may own as many remotes as desired, but only one should be designated as the origin. [4]
+
+References:
+[1] https://git-scm.com/docs/gitignore/
+[2] https://support.atlassian.com/bitbucket-cloud/docs/git-fast-forwards-and-branch-management/
+[3] https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches
+[4] https://stackoverflow.com/questions/11690709/can-a-project-have-multiple-origins
